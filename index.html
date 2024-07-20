@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header2">
+            <div class="header_text">
+                <p>Summer Sale For All Products And Free Express Delivery - OFF 50%!</p>
+            </div>
+
+            <div class="header_select">
+                <select name="language-select" id="language">
+                    <option value="en">English</option>
+                    <option value="uz">Uzbek</option>
+                    <option value="ru">Russian</option>
+                </select>
+            </div>
+        </div>  
+    </div>
+
+    <div class="links">
+        <div class="logo">
+            <img src="./imgs/link_img mini.png" alt="">
+            <a href="./index.html">Infinity</a>
+        </div>
+        
+        <nav>
+            <ul>
+                <li><a href="index.html">Admin</a></li>
+                <li><a href="NotPageFound.html">About us</a></li>
+                <li><a href="NotPageFound.html">Blog</a></li>
+                <li><a href="NotPageFound.html">Contact us</a></li>
+                <li><a href="login.html">Log in</a></li>
+            </ul>
+        </nav>
+        
+        <div class="link_shop">
+            <div class="inputs">
+                <div class="inputss">    
+                    <input type="text" name="search" id="search" placeholder="What are you looking for?">
+                    <a href="#"><img src="./imgs/search.svg" alt="search_logo"></a>
+                </div>
+            </div>
+        </div>
+    </div>  
+    <div class="hero_img">
+        <div class="hero_text">
+            <h1>Our product</h1>
+            <p>Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Non, perspiciatis. Fugiat, deleniti.</p>
+            <a href="#">Read more  > </a>
+        </div>
+    </div>
+    
+    <div class="form-container">
+        <form class="formClass" id="formId">
+            <div>
+            <label for="name">Product Name:</label>
+            <input class="" type="text" id="name" placeholder="Product name enter..." required>
+            </div>
+            <div>
+            <label for="price">Product Praice:</label>
+            <input type="number" id="price" placeholder="Product price enter..." required>
+            </div>
+            <div>
+            <label for="description">Product Description:</label>
+            <textarea  id="description" placeholder="Enter your description..."></textarea>
+            </div>
+            <div class="btn">
+            <button type="submit">Add</button>
+            <div class="btnn"></div>
+            </div>
+        </form>
+        <div class="New_Products">
+            <ul class="productList"></ul>
+        </div>
+    </div>
+
+    
+    <script type="module" src="./script.js"></script>
+</body>
+</html>

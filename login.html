@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div id="spinner" class="spinner"></div>
+  <div class="login" id="login-container">
+    <div class="login_hero">
+      <img src="./imgs/Virtual_Background.jpg" alt="login img">
+    </div>
+
+    <div class="main_login">
+      <h2>Log in to Infinity</h2>
+      <p>Enter your details here to log in</p>
+      <form id="login-form">
+        <div class="form-group">
+          <input type="text" id="email" name="email" required placeholder="Email or Phone Number">
+        </div>
+        
+        <div class="form-group">
+          <input type="password" id="password" name="password" required placeholder="Password">
+        </div>
+        <div class="login_links">
+          <button id="login-button" type="submit">Login</button>
+          <a href="https://fakeapi.platzi.com/en/rest/auth-jwt/">Forget Password?</a>
+        </div>
+      </form>
+    </div>
+
+    
+
+  <script type="module" src="./login.js"></script>
+</body>
+</html>
